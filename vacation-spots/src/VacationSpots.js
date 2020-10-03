@@ -1,6 +1,4 @@
-import React from "react"
-
-let vacationSpots = [
+const vacation = [
     {
       place: "Meridian, Idaho",
       price: 40,
@@ -24,4 +22,4 @@ let vacationSpots = [
     }
   ]
 
-export default VacationSpots
+export default vacation
