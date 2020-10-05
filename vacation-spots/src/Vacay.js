@@ -3,8 +3,9 @@ import React from "react"
 function Vacay(props){
     return(
         <div>
-            <h2>{props.vacation.place} - {props.vacation.price}</h2>
-            <p>{props.vacation.time}</p>
+            <h2>{props.vacation.place}</h2>
+            <h3>{props.vacation.price}</h3>
+            <p>{props.vacation.timeToGo}</p>
         </div>
     )
 }
