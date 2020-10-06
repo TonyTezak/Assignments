@@ -1,10 +1,10 @@
 const vacation = [
     {
-      place: "Meridian, Idaho",
+      place: "Bad Axe, Michigan",
       price: 40,
       timeToGo: "Spring"
     },{
-      place: "Cancun",
+      place: "Honolulu",
       price: 900,
       timeToGo: "Winter"
     },{
@@ -12,11 +12,11 @@ const vacation = [
       price: 1200,
       timeToGo: "Fall"
     },{
-      place: "Russia",
-      price: 1100,
-      timeToGo: "Summer"
+      place: "Montreal",
+      price: 500,
+      timeToGo: "Fall"
     },{
-      place: "Lebanon",
+      place: "Slovakia",
       price: 400,
       timeToGo: "Spring"
     }
