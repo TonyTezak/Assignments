@@ -1,0 +1,24 @@
+
+#box1  {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  border: solid 2px black
+    }
+
+ .partyColor {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border: solid 2px black
+      } 
+
+.blue {
+  color: blue;
+}      

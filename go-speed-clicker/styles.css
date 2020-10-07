@@ -1,0 +1,13 @@
+#aimClick{
+    background-color: aqua;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+#soManyWords{
+    background-color: orange;
+    text-align: center;
+}

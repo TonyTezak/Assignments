@@ -1,0 +1,98 @@
+#box1  {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    border: solid 2px black;
+    transition: all 0.5s ease-in-out;
+      }
+
+#box1:hover {
+    border: solid 10px chocolate
+}      
+
+#box2  {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: darkorchid;
+    border: solid 2px black;
+    transition: all 2s ease-in-out;
+        }
+
+#box2:hover {
+    transform: rotateX(150deg);
+
+}
+
+#box3  {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    border: solid 2px black;
+    transition: all 1s ease-in-out;
+        }
+
+#box3:hover {
+    width: 75px;
+    height: 75px;
+}
+
+#box4  {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: solid 2px black;
+    transition: all 1.5s ease-in-out;
+        }
+
+#box4:hover {
+    box-shadow: 20px 20px 10px 0 darkorange;
+}
+
+#box5  {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    border: solid 2px black;
+    transition: all 2s ease-in-out;
+        }
+
+#box5:hover {
+    border: solid 10px crimson;
+    background-color: black;
+}        
+
+#box6  {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: lawngreen;
+    border: solid 2px black;
+    transition: all 1s ease-in-out;
+        }
+
+#box6:hover {
+    border-radius: 80px 150px 240px 420px;
+}        

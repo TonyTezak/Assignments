@@ -1,0 +1,97 @@
+
+
+{
+    "Welcome To": "JSON's Deli",
+    "Nestled in Scenic": "Silicon Valley",
+    "theFoodIsDelicious": true,
+
+    "Appetizers": [
+        {"Name:": "String Cheese Sticks",
+        "Ingredients:": "Breaded Mozzarella string cheese deep fried in olive oil",
+        "Price:": ["4 for 2.99", "8 for 3.99"]},
+
+        {"Name:": "Onion Rings",
+         "Ingredients:": "Our breaded onion rings fried in olive oil are so large, we include a bread stick to play ring toss with!",
+         "Price:": ["3.99 for a half basket", "4.99 for a full basket"]}
+        ],
+
+    "Cold Sandwiches:": [
+        {"Name:": "JSON PBJ"},
+        {"Ingredients:": [
+            {"Butter:": "Organic peanut butter or organic almond butter"},
+            {"Jelly": "Organic strawberry, apple, grape, or marionberry jellies made from fruit grown locally or on the West Coast"},
+            {"Bread:": "Store-baked white or whole wheat"}
+            ]},
+        {"Price:": 2.99},
+
+        {"Name:": "JSON Cold Stack"},
+        {"Ingredients: Choose from a wide array": [
+            {"Meats:": "Bologna, Cotto Salami, Oven-Roasted Beef, Oven-Roasted Chicken, Oven-Roasted Turkey, Oven-roasted Buffalo"},
+            {"Cheese:": "Tillamook-brand Cheddar, Monterrey Jack, Pepper Jack, Swiss, or Provolone"},
+            {"Vegetables:": "Organic avacado, tomato, cucumber, lettuce, jalapenos, spinach, or onions all grown locally or on the West Coast"},
+            {"Side:": "Potato chips, french-fries"},
+            {"Bread:": "Store-baked white or whole wheat"}
+        ]},    
+        {"Price:": 4.99}
+    ],
+
+    "Hot Sandwiches:": [
+        {"Name:": "JSON Hot Stack (Same as the JSON Cold Stack, only toasted"},
+        {"Ingredients: Choose from a wide array": [
+            {"Meats:": "Bologna, Cotto Salami, Oven-Roasted Beef, Oven-Roasted Chicken, Oven-Roasted Turkey, Oven-roasted Buffalo"},
+            {"Cheese:": "Tillamook-brand Cheddar, Monterrey Jack, Pepper Jack, Swiss, or Provolone"},
+            {"Vegetables:": "Organic avacado, tomato, cucumber, lettuce, jalapenos, spinach, or onions all grown locally or on the West Coast"},
+            {"Side:": "Potato chips, french-fries"},
+            {"Bread:": "Store-baked white or whole wheat"}
+        ]},    
+        {"Price:": 4.99},
+
+        {"Name:": "JSON Burger"},
+        {"Ingredients: Choose from a wide array": [
+            {"Meats:": "Ground beef, ground buffalo, ground turkey, or Beyond Burger"},
+            {"Cheese:": "Tillamook-brand Cheddar, Monterrey Jack, Pepper Jack, Swiss, or Provolone"},
+            {"Vegetables:": "Organic avacado, tomato, cucumber, lettuce, jalapenos, spinach, or onions all grown locally or on the West Coast"},
+            {"Side:": "Potato chips, french-fries"},
+            {"Buns:": "Store-baked white or whole wheat"}
+        ]},
+        {"Price:": 5.99}
+    ],
+
+    "Desserts:": [
+        {"Name:": "Construct Your Own Sundae"},
+        {"Ingredients:": [
+            {"Ice Cream:": "Chocolate, vanilla, strawberry, marionberry"},
+            {"Toppings":[
+                {"Nuts:": "Almonds, peanuts, pistachios, walnuts"},
+                {"Fruit:": "Banana, baked apple, cherry, raisin, pineapple, blueberry"},
+                {"Jelly": "Organic strawberry, apple, grape, or marionberry jellies made from fruit grown locally or on the West Coast"},
+                {"Whipped Topping:": "Real cream spray, Cool Whip spray"}
+            ]}
+            ]},
+        {"Price:": 4.99},
+                
+        {"Name:": "Chocolate Inifinite Loop"},
+        {"Ingredients:": "Hot Chocolate Brownie, Chocolate Ice Cream, Ghiradelli Chocolate Syrup"},
+        {"Price:": 4.99}
+            ],
+
+    "Drinks:": [
+        {"Name:": "Web Developper Soft Drinks"},
+        {"Choices:": "Various flavors of Red Bull, Monster, Rock Star energy drinks"},
+        {"Price:": 3.50},
+
+        {"Name:": "Other Soft Drinks"},
+        {"Choices:": "Various Coke and Pepsi products, refills available"},
+        {"Price:": 2.50},
+
+        {"Name:": "Milk"},
+        {"Ingredients:": "Locally-produced skim milk, 2% milk, whole milk"},
+        {"Optional": "Ghiradelli Chocolate Syrup"},
+        {"Price:": 1.99},
+
+        {"Name:": "Bottomless Coffee and Tea"},
+        {"To Add:": "Half and Half, milk, sugar, honey, Splenda"},
+        {"Price:": 1.50}
+    ]        
+        
+}

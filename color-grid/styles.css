@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box; 
+    font-size: 0px;
+}
+
+/*.boxes {width: 100%; height: 75px; font-size: 0; border: 5px solid white;}*/
+
+.box1 {
+    display: block;
+    width: 100%;
+    height: 75px;
+    background: #F5C6D6;
+    border: 5px solid white;
+}
+.box2 {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    height: 75px;
+    background: #EE2E84;
+    border: 5px solid white;
+}
+
+.box3 {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    height: 75px;
+    background: #EE2E84;
+    border: 5px solid white;
+}
+
+.box4 {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    height: 75px;
+    background: #EE2E84;
+    border: 5px solid white;
+}
+
+.box5 {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    height: 75px;
+    background: #EE2E84;
+    border: 5px solid white;
+}
+
+.box6 {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 75px;
+    background: #85CFD8;
+    border: 5px solid white;
+}
+
+.box7 {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 75px;
+    background: #85CFD8;
+    border: 5px solid white;
+}
+
+.box8 {
+    display: inline-block;
+    position: relative;
+    width: 75%;
+    height: 75px;
+    background: #8DC63F;
+    border: 5px solid white;
+}
+
+.box9 {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    height: 75px;
+    background: #E76E34;
+    border: 5px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /*.boxes {width: 100%; height: 25px; font-size: 0; border: 2px solid white;}*/
+    
+    .box1 {
+        display: block;
+        width: 100%;
+        height: 25px;
+        background: #F5C6D6;
+        border: 2px solid white;
+    }
+
+    .box2 {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 25px;
+        background: #EE2E84;
+        border: 2px solid white;
+    }
+    
+    .box3 {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 25px;
+        background: #EE2E84;
+        border: 2px solid white;
+    }
+    
+    .box4 {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 25px;
+        background: #EE2E84;
+        border: 2px solid white;
+    }
+    
+    .box5 {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 25px;
+        background: #EE2E84;
+        border: 2px solid white;
+    }
+    
+    .box6 {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 25px;
+        background: #85CFD8;
+        border: 2px solid white;
+    }
+    
+    .box7 {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 25px;
+        background: #85CFD8;
+        border: 2px solid white;
+    }
+    
+    .box8 {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 25px;
+        background: #8DC63F;
+        border: 2px solid white;
+    }
+    
+    .box9 {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 25px;
+        background: #E76E34;
+        border: 2px solid white;
+    }
+    }

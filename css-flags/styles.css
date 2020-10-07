@@ -1,0 +1,404 @@
+.top {
+    border: 5px solid royalblue;
+    color: red;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.flags {
+    position: relative;
+    top: 10px;
+    border: 5px solid seagreen;
+    color: cornflowerblue;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.franceFlag {width: 100%; height: 75px; font-size: 0;}
+
+.France1  {
+  display: inline-block;
+  width: 50px;
+  height: 70px;
+  background: blue;
+    }
+
+.France2  {
+    display: inline-block;
+    width: 50px;
+    height: 70px;
+    background: white;
+          }
+
+.France3  {
+    display: inline-block;
+    width: 50px;
+    height: 70px;
+    background: red;
+              }          
+
+.germanyFlag {width: 100%; height: 75px; font-size: 0;}   
+
+.Germany1 {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 24px;
+    background: black;
+}
+
+.Germany2 {
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    left: -150px;
+    width: 150px;
+    height: 24px;
+    background: red;
+}
+
+.Germany3 {
+   display: inline-block;
+   position: relative;
+    top: 50px;
+    left: -300px;
+    width: 150px;
+    height: 24px;
+    background: gold;
+}
+
+.madagascarFlag {width: 100%; height: 75px; font-size: 0;}
+
+.madagascar1 {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 70px;
+    background: white;
+}
+
+.madagascar2 {
+    display: inline-block;
+    position: relative;
+    top: -36px;
+    width: 100px;
+    height: 36px;
+    background: red;
+}
+
+.madagascar3 {
+    display: inline-block;
+    position: relative;
+    left: -100px;
+    width: 100px;
+    height: 36px;
+    background: green;
+}
+
+.swissFlag {width: 100%; height: 75px; font-size: 0;}
+
+.Swiss1 {
+    display: inline-block;
+    width: 100px;
+    height: 72px;
+    background: red;
+}
+
+.Swiss2 {
+    display: inline-block;
+    position: relative;
+    left: -63px;
+    top: -5px;
+    width: 25px;
+    height: 60px;
+    background: white;
+}
+
+.Swiss3 {
+    display: inline-block;
+    position: relative;
+    left: -105px;
+    top: -23px;
+    width: 60px;
+    height: 25px;
+    background: white;
+}
+
+.swedenFlag {width: 100%; height: 75px; font-size: 0;}
+
+.Sweden1 {
+    display: inline-block;
+    width: 150px;
+    height: 72px;
+    background: royalblue;
+}
+
+.Sweden2 {
+    display: inline-block;
+    position: relative;
+    left: -105px;
+    width: 20px;
+    height: 72px;
+    background: gold;
+}
+
+.Sweden3 {
+    display: inline-block;
+    position: relative;
+    left: -170px;
+    top: -25px;
+    width: 150px;
+    height: 20px;
+    background: gold;
+}
+
+.gambiaFlag {width: 100%; height: 80px; font-size: 0;}
+
+.Gambia1 {
+    display: inline-block;
+    width: 150px;
+    height: 27px;
+    background: red;
+}
+
+.Gambia2 {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: -150px;
+    width: 150px;
+    height: 15px;
+    background: blue;
+}
+
+.Gambia3 {
+    display: inline-block;
+    position: relative;
+    top: 52px;
+    left: -300px;
+    width: 150px;
+    height: 27px;
+    background: green;
+}
+
+.tongaFlag {width: 100%; height: 75px; font-size: 0;}
+
+.Tonga1 {
+    display: inline-block;
+    width: 150px;
+    height: 72px;
+    background: red;
+}
+
+.Tonga2 {
+    display: inline-block;
+    position: relative;
+    top: -32px;
+    left: -150px;
+    height: 40px;
+    width: 70px;
+    background: white;
+}
+
+.Tonga3 {
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    left: -190px;
+    height: 26px;
+    width: 10px;
+    background: red;
+}
+
+.Tonga4 {
+    display: inline-block;
+    position: relative;
+    top: -47px;
+    left: -208px;
+    height: 10px;
+    width: 26px;
+    background: red;
+}
+
+.japanFlag {width: 100%; height: 75px; font-size: 0;}
+
+.Japan1 {
+    display: inline-block;
+    height: 72px;
+    width: 150px;
+    background: white;
+    border: 1px solid black;
+}
+
+.Japan2 {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: -100px;
+    height: 50px;
+    width: 50px;
+    background: red;
+    border-radius: 50%;
+}
+
+.greeceFlag {width: 100%; height: 75px; font-size: 0;}
+
+.Greece1 {
+    display: inline-block;
+    height: 72px;
+    width: 150px;
+    background: white;
+    border: 1px solid black;
+}
+
+.greece2 {
+    display: inline-block;
+    position: relative;
+    top: -29px;
+    left: -151px;
+    height: 45px;
+    width: 45px;
+    background: blue;
+}
+
+.greece3 {
+    display: inline-block;
+    position: relative;
+    top: -29px;
+    left: -179px;
+    height: 45px;
+    width: 8px;
+    background: white;
+}
+
+.greece4 {
+    display: inline-block;
+    position: relative;
+    top: -47px;
+    left: -204px;
+    height: 8px;
+    width: 45px;
+    background: white;
+}
+
+.greece5 {
+    display: inline-block;
+    position: relative;
+    top: -47px;
+    left: -203px;
+    height: 8px;
+    width: 105px;
+    background: blue;
+}
+
+.greece6 {
+    display: inline-block;
+    position: relative;
+    top: -66px;
+    left: -309px;
+    height: 8px;
+    width: 105px;
+    background: blue;
+}
+
+.greece7 {
+    display: inline-block;
+    position: relative;
+    top: -29px;
+    left: -414px;
+    height: 8px;
+    width: 105px;
+    background: blue;
+}
+
+.greece8 {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: -564px;
+    height: 8px;
+    width: 150px;
+    background: blue;
+}
+
+.greece9 {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: -714px;
+    height: 8px;
+    width: 150px;
+    background: blue;
+}
+
+.nigerFlag {width: 100%; height: 75px; font-size: 0;}
+
+.Niger1 {
+    display: inline-block;
+    height: 72px;
+    width: 150px;
+    background: white;
+    border: 1px solid black;
+}
+
+.Niger2 {
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    left: -151px;
+    height: 24px;
+    width: 150px;
+    background: orangered;
+}
+
+.Niger3 {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: -301px;
+    height: 24px;
+    width: 150px;
+    background: green;
+}
+
+.Niger4 {
+    display: inline-block;
+    position: relative;
+    top: -27px;
+    left: -385px;
+    height: 20px;
+    width: 20px;
+    background: orangered;
+    border-radius: 50%;
+}
+
+.maldivesFlag {width: 100%; height: 75px; font-size: 0;}
+
+.Maldives1 {
+    display: inline-block;
+    height: 72px;
+    width: 150px;
+    background: red;
+}
+
+.Maldives2 {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: -110px;
+    height: 35px;
+    width: 75px;
+    background: green;
+}
+
+.Maldives3 {
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    left: -150px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 4px 0 0 0 white;
+    transform: rotate(180deg);
+}
