@@ -3,17 +3,13 @@ import friendData from "./Components/FriendList"
 import Friend from "./Components/Friend"
 
 function App (){
-    return (
-        function App (){
-            const friendComponents = friendData.map(friends => <Friend key={friends.id} friends={friends} />)
-            
-            return(
-                <div>
-                    {friendComponents}
-                </div>
+    const friendComponents = friendData.map(friends => <Friend key={friends.id} friends={friends} />)
+    
+    return(
+        <div>
+            {friendComponents}
+        </div>
             )
             }
-    )
-}
 
 export default App
