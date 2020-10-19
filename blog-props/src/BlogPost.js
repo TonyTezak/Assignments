@@ -10,11 +10,13 @@ function BlogPost (props){
     flexWrap: "wrap",
     marginLeft: "-15px",
     marginRight: "-15px",
+    marginTop: "50px;",
     textAlign: "center"
     }}>
         <h1>{props.blogWords.title}</h1>
         <h2>{props.blogWords.subTitle}</h2>
         <h3>Posted by {props.blogWords.author} on {props.blogWords.date}</h3>
+        <hr></hr>
 
     </div>
     )
