@@ -4,10 +4,12 @@ function BlogPost (props){
     return (
     <div style={{height: "250px",
     width: "1fr",
-    backgroundColor: "steelgrey",
     color: "black",
     font: "36px",
     fontFamily: "Helvetica Neue",
+    flexWrap: "wrap",
+    marginLeft: "-15px",
+    marginRight: "-15px",
     textAlign: "center"
     }}>
         <h1>{props.blogWords.title}</h1>
