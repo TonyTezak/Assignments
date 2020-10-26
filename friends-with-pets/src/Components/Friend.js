@@ -3,7 +3,7 @@ import React from "react"
 import Pet from "./Pet"
         
 function Friend (props){
-            const petComponents = props.friends.pets.map(pet => <Pet key={pet} breed={pet.breed} name={pet.name} />)
+            const petComponents = props.pets.map(pet => <Pet key={pet} breed={pet.breed} name={pet.name} />)
             return(
 
             <div style={{height: "350px", 
