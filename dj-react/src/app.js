@@ -1,11 +1,12 @@
 import React from "react"
-// import Square from "./Square"
+// import colorData from "./colorData"
+import Square from "./Square"
 
 class App extends React.Component{
     constructor (){
         super ()
         this.state = {
-            colors: ["white", "white", "white", "white"]
+            colors: Square
         }
         this.handleClickBW = this.handleClickBW.bind(this)
         this.handleClickPurple = this.handleClickPurple.bind(this)
@@ -17,7 +18,7 @@ class App extends React.Component{
     handleClickBW(){
         this.setState(prevState => {
             return{
-                color: prevState.colors[0]
+                color: prevState.colors
             }
         })
     }
@@ -47,12 +48,12 @@ class App extends React.Component{
     }
 
     render(){
+
+        const colorSquares = this.state.colors.map(color => <Square key={Square.id} color={color}/>)  
+
         return (
             <div>
-                {/* <Square color={this.state.colors[0]}/>
-                <Square color={this.state.colors[1]}/>
-                <Square color={this.state.colors[2]}/>
-                <Square color={this.state.colors[3]}/> */}
+                {colorSquares}
                 <button onClick={this.handleClickBW}>Black/White</button>
                 <button onClick={this.handleClickPurple}>Purple</button>
                 <button onClick={this.handleClickBlueLeft}>Blue Bottom L</button>
