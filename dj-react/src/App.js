@@ -1,12 +1,13 @@
 import React from "react"
-import styles from "./styles.css"
+import "./styles.css"
 // import Square from "./Square"
 
 class App extends React.Component{
     constructor (){
         super ()
         this.state = {
-            colors: ["white", "white", "white", "white"]
+            squares:[{position: 1, theme: "white"},{position: 2, theme: "white"},
+            {position: 3, theme: "white"},{position: 4, theme: "white"}]
         }
         this.handleClickBW = this.handleClickBW.bind(this)
         this.handleClickPurple = this.handleClickPurple.bind(this)
@@ -50,7 +51,7 @@ class App extends React.Component{
 
     render(){
         
-        const colorSquares = this.state.colors.map(color => <Square key={Square.id} color={color}/>)  
+        const colorSquares = this.state.squares.map(square => <Square key={square.position} color={square.color} position={square.position}/>)  
 
         return (
             <div>

@@ -3,26 +3,34 @@
     grid-template-columns: repeat(5, 1fr);
 }
 
+.theme-white{
+    background-color: white;
+}
+
+.theme-black{
+    background-color: black;
+}
+
 #square1 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    background-color: white;
+    
 }
 
 #square2 {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
-    background-color: white;
+    
 }
 
 #square3 {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    background-color: white;
+ 
 }
 
 #square4 {
     grid-column: 3 / 4;
     grid-row: 3 / 4;
-    background-color: white;
+
 }
