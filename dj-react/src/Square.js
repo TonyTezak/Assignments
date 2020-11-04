@@ -2,12 +2,12 @@ import React from "react"
 
 
 function Square(props){
-const {position,color}=props
+const {color,position}=props
   
 return(
 
-    <div id ={"square" + position} className={"theme-" + color}>
-        
+    <div>
+        <djSquare id={"square" + position} className={"theme-" + color}></djSquare>
     </div>
 )
 }
