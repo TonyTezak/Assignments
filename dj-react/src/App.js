@@ -5,17 +5,18 @@ import Square from "./Square"
 class App extends React.Component{
     constructor (){
         super ()
-        this.state = {
-            squares:[
-            {position: 1, theme: "theme-white"},
-            {position: 2, theme: "white"},
-            {position: 3, theme: "white"},
-            {position: 4, theme: "white"}]
-        }
         this.handleClickBW = this.handleClickBW.bind(this)
         this.handleClickPurple = this.handleClickPurple.bind(this)
         this.handleClickBlueLeft=this.handleClickBlueLeft.bind(this)
         this.handleClickBlueRight=this.handleClickBlueRight.bind(this)
+        this.state = {
+            squares:[
+            {position: 1, theme: "white"},
+            {position: 2, theme: "white"},
+            {position: 3, theme: "white"},
+            {position: 4, theme: "white"}]
+        }
+        
 
     }
 
@@ -23,7 +24,7 @@ class App extends React.Component{
         this.setState(prevState => {
             
             return (
-            [{position: {gridColumn: 2/3, gridRow: 2/3}, theme: "theme-black"}]
+            [{position: {gridColumn: 2/3, gridRow: 2/3}, theme: ".theme-black"}]
             )
         })
     }
@@ -60,7 +61,7 @@ class App extends React.Component{
         return (
             <div>
                 {colorSquares}
-                <djSquare></djSquare>
+                <djSquare id={"square1"+ {gridColumn:2/3, gridRow:2/3}} className={"theme-" + {backgroundColor: ".theme-black"}}></djSquare>
                 <djSquare></djSquare>
                 <djSquare></djSquare>
                 <djSquare></djSquare>

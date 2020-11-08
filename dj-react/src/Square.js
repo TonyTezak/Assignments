@@ -1,8 +1,12 @@
 import React from "react"
 
-
+// class Square extends React.Component{
+//     constructor(props)
+//     super(props);
+//     this.handleClickBW = this.handleClickBW.bind(this)
+// }
 function Square(props){
-const {color,position}=props
+const {position,color}=props
   
 return(
 
