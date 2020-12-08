@@ -13,20 +13,22 @@ class App extends React.Component{
         this.handleClick = this.handleClick.bind(this)
     }
 
-    
+ 
 
     handleClick(){
-        let shakeDice = Math.floor(Math.random) * 6
-        this.setState(prevState => {
-            return {
-                num1: prevState.shakeDice,
-                num2: prevState.shakeDice,
-                num3: prevState.shakeDice,
-                num4: prevState.shakeDice,
-                num5: prevState.shakeDice
-            }
+        this.setState(() => {
+            const shakeDice = {
+                num1: Math.floor(Math.random() * 7), 
+                num2: Math.floor(Math.random() * 7), 
+                num3: Math.floor(Math.random() * 7), 
+                num4: Math.floor(Math.random() * 7), 
+                num5: Math.floor(Math.random() * 7) 
+            } 
+            return shakeDice
         })
-    }
+        }
+        
+    
 
     render(){
         return(
